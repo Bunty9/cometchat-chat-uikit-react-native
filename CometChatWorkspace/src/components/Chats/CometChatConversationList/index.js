@@ -809,6 +809,7 @@ class CometChatConversationList extends React.Component {
    */
   handleClick = (conversation) => {
     try {
+      console.log('+++++++++++++++++conversation', conversation); //syed
       if (!this.props.onItemClick) return;
 
       this.props.onItemClick(
